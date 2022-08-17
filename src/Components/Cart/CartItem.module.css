@@ -1,0 +1,39 @@
+.amtqn {
+  margin-top: 1rem;
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+}
+.price {
+  color: rgb(164, 44, 44);
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.quantity {
+  font-size: 1.2rem;
+  border: 1px solid rgba(113, 29, 29, 0.32);
+  padding: 0.2rem 0.8rem;
+}
+.cartButon {
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  gap: 1.2rem;
+}
+.cartButon button {
+  padding: 0.2rem 1rem;
+  border: 1px solid rgba(113, 29, 29, 0.32);
+  color: brown;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.cartButon button:hover {
+  color: white;
+  background-color: brown;
+}
+.item {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  padding: 1.2rem;
+  border-bottom: 2px solid brown;
+}

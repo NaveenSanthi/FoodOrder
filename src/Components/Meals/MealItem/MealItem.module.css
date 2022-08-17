@@ -1,0 +1,18 @@
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  border-bottom: 1px solid #ced4da;
+}
+.heading {
+  font-weight: 700;
+}
+.description {
+  font-style: italic;
+  font-weight: 500;
+}
+.price {
+  color: #8a2b06;
+  font-weight: bold;
+  font-size: 2.3rem;
+}

@@ -1,0 +1,51 @@
+.CartButton {
+  background-color: #4d1601;
+  display: flex;
+  border-radius: 2.5rem;
+  padding: 0.75rem 3rem;
+  color: white;
+  gap: 2rem;
+  border: none;
+  align-items: center;
+  font-weight: bold;
+  align-items: center;
+  cursor: pointer;
+}
+.CartButton:hover,
+.CartButton:active {
+  background-color: #2c0d00;
+}
+.CartIcon {
+  width: 2.3rem;
+  height: 2.3rem;
+}
+
+.CartText {
+  font-size: 1.5rem;
+}
+
+.CartCount {
+  background-color: #8a2b06;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50%;
+}
+.bump {
+  animation: bump 300ms ease-out;
+}
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
